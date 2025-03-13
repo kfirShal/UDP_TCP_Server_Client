@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Usage:
-    To run the server:    python3 hackathon_speed_test.py --server
-    To run the client:    python3 hackathon_speed_test.py
+    To run the server:    python3 main.py --server
+    To run the client:    python3 main.py
 
 """
 
