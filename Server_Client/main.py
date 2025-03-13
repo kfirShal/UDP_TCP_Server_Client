@@ -1,16 +1,9 @@
 #!/usr/bin/env python3
 """
-Sample solution for Intro to Computer Networks 2024 Hackathon – Speed Test assignment.
-
 Usage:
     To run the server:    python3 hackathon_speed_test.py --server
     To run the client:    python3 hackathon_speed_test.py
 
-Note:
-- This code implements a UDP/TCP server and client.
-- The server broadcasts an offer message and handles both TCP and UDP file-transfer requests.
-- The client listens for an offer, then prompts for file size, and number of TCP/UDP connections.
-- All network transmissions are deliberately sent 1 byte at a time.
 """
 
 import socket
